@@ -128,3 +128,16 @@ nav .active a, nav a:hover{
     text-decoration: none;
     padding: 5px;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.day, .hours{
+    margin-bottom: 10px;
+}
