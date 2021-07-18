@@ -243,9 +243,19 @@ article .news_resume {
     margin-bottom: 20px;
 }
 
+.widget_contact{
+    display: flex;
+}
+
 .widget_desc {
     color: #5c5c5c;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 30px;
 }
+
+.widget_icon img{
+    width: 30px;
+    margin-right: 10px;
+}
+
