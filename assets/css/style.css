@@ -267,13 +267,11 @@ footer {
 
 .footer_menu {
     display: flex;
-    flex: 1;
 }
 
 .fm1, .fm2, .fm3 {
     flex: 1;
     color: #FFFFFF;
-    padding: 20px;
 }
 
 .fm1 {
@@ -288,3 +286,35 @@ footer {
     background-color: #2b4c99;
 }
 
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.footer_area {
+    display: flex;
+}
+
+.footer_area_item {
+    flex: 1;
+    color: #FFFFFF;
+}
+
+footer .widget_title_text{
+    color: #FFFFFF
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+    height: 40px;
+    line-height: 40px;
+}
