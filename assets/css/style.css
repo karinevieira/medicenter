@@ -318,3 +318,12 @@ footer .widget_title_text{
     height: 40px;
     line-height: 40px;
 }
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.widget_body_text {
+    color: #5c5c5c;
+    font-size: 12px;
+}
